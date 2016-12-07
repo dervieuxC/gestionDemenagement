@@ -35,6 +35,10 @@ void Vehicule::setEtat(const QString &value)
 {
     etat = value;
 }
-
+void Vehicule::tomberEnPanne()
+{
+    int randomValue = qrand() % 100;
+    if (randomValue)
+}
 
 
